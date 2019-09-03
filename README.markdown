@@ -53,6 +53,8 @@ Backtrace Sample
 
 ```
 # tail -1 logs/error.log 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Fnginx-backtrace-ng.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Fnginx-backtrace-ng?ref=badge_shield)
+
 2016/11/29 02:47:53 [error] 21810#0: ngx_backtrace_module: Got signal 11 (SIGSEGV), Saving the stacktrace in /tmp/nginx-crash.log
 # cat /tmp/nginx-crash.log
 +-------------------------------------------------------+
@@ -80,3 +82,7 @@ End of stack trace.
 
 ```
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcanv15%2Fnginx-backtrace-ng.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcanv15%2Fnginx-backtrace-ng?ref=badge_large)
